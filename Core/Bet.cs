@@ -9,7 +9,7 @@ namespace RouletteServices.Core
 {
     public class Bet
     {
-        public long idBet { get; set; } //Key Bet
+        public long idBet { get; set; } //Key Bets
         public int idRoulette { get; set; }//Key Roulette
         public int numberBet { get; set; } //Number for Bet
         public long amountBet { get; set; } //Amount for Bet
